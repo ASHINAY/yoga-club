@@ -26,17 +26,10 @@ function HomePage() {
           Register a class
         </button>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-around",
-          gap:"10px"
-        }}
-      >
-        <img style={{ height: "180px", width: "180px" }} src={YogaExercise1} />
-        <img style={{ height: "180px", width: "180px" }} src={YogaExercise2} />
-        <img style={{ height: "180px", width: "180px" }} src={YogaExercise3} />
+      <div className="image-container">
+        <img  src={YogaExercise1} alt="Yoga Exercise 1"  />
+        <img  src={YogaExercise2} alt="Yoga Exercise 2"  />
+        <img  src={YogaExercise3} alt="Yoga Exercise 3" />
       </div>
     </div>
   );
