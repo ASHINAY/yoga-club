@@ -78,12 +78,14 @@
     border-radius: 0;
     background: none;
     gap: 25px;
+    opacity: 0.8;
   }
   .register-button {
     padding: 8px 0;
   }
   .left-container span:nth-child(1) {
     color: black;
+
   }
   .left-container span:nth-child(2) {
     text-align: center;
